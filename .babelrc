@@ -1,0 +1,10 @@
+{
+  "presets": ["module:metro-react-native-babel-preset"],
+  "plugins": ["@babel/plugin-transform-exponentiation-operator",
+    "@babel/plugin-proposal-unicode-property-regex"],
+  "env": {
+    "production": {
+      "plugins": ["babel-plugin-transform-remove-console"]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Peach Wallet</string>
+    <string name="foregrond_service_notification_title">Wallet is working</string>
+</resources>

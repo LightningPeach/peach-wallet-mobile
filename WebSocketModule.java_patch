@@ -1,0 +1,8 @@
+--- ./node_modules/react-native/ReactAndroid//src/main/java/com/facebook/react/modules/websocket/WebSocketModule.java
++++ ./node_modules/react-native/ReactAndroid//src/main/java/com/facebook/react/modules/websocket/WebSocketModule.java
+@@ -88,6 +88,7 @@
+       .connectTimeout(10, TimeUnit.SECONDS)
+       .writeTimeout(10, TimeUnit.SECONDS)
+       .readTimeout(0, TimeUnit.MINUTES) // Disable timeouts for read
++      .pingInterval(5, TimeUnit.SECONDS)
+       .build();

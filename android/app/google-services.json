@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "509247498801",
+    "firebase_url": "https://mobile-wallet-5d386.firebaseio.com",
+    "project_id": "mobile-wallet-5d386",
+    "storage_bucket": "mobile-wallet-5d386.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509247498801:android:a7e0a56da9b94a6f",
+        "android_client_info": {
+          "package_name": "com.lightningmobilewallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509247498801-ur3n5u38cqicgm1hvf89hs4iqkk95cvr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lightningmobilewallet",
+            "certificate_hash": "006ec0b6e19faff5c70133e24f3e3b68c3ab888c"
+          }
+        },
+        {
+          "client_id": "509247498801-1qiiem17u6bd0aj8rj6o9hbrmf6jmnv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpf3MfGQv4n1iwOScnRhMEhSt_OmQ2g4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509247498801-1qiiem17u6bd0aj8rj6o9hbrmf6jmnv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

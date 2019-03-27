@@ -1,0 +1,11 @@
+{
+  "identity_pubkey": "022225da03a72b097a64ada4fecdc27ce0313d8d2b26cc6dad004203700bf13976",
+  "alias": "022225da03a72b097a64",
+  "block_height": 1352777,
+  "block_hash": "00000000000000212b4f0fbe15211dc2f08db46f0d5b265482c54a2f5c3e4d47",
+  "synced_to_chain": true,
+  "testnet": true,
+  "chains": ["bitcoin"],
+  "best_header_timestamp": "1531230382",
+  "version": "0.4.2-beta commit="
+}

@@ -1,0 +1,5 @@
+* text=auto
+*.png -text
+*.pbxproj -text
+*.bat text eol=crlf
+*.sh text eol=lf
