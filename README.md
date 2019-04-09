@@ -12,7 +12,7 @@ GUI of the Peach Wallet is implemented with [ReactNative](https://github.com/fac
 
 ### Before using the wallet
 
-:warning: Before creating a wallet account, you need to have your own LND running. If you don’t have it yet, you can deploy it by following our step by step instructions on [how to deploy LND to Google Cloud](https://github.com/LightningPeach/lnd-gc-deploy/blob/master/README.md).
+:warning: Before creating a wallet account, you need to have your own LND running. If you don’t have it yet, you have two options here. The first option is [installing a node using cloud service](https://github.com/LightningPeach/lnd-gc-deploy/blob/master/README.md). The second one is to [use node deployed on your PC](/peach-desktop-node/configuring-desktop-node.md) from the Peach desktop wallet. 
 
 :construction: Please be aware that this is a Beta version and development of the Peach Wallet is still in progress. It means that different issues can occur during the wallet use. Using real coins may be risky and may lead to loss of funds.
 
