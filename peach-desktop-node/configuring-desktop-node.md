@@ -1,5 +1,5 @@
 ## Introduction
-When you set up Peach mobile wallet and need to deploy your own Lightning node, you have two options here. The first option is [installing a node using any cloud service](https://github.com/LightningPeach/lnd-gc-deploy/blob/master/README.md). The second one is to use node deployed on your PC from the Peach desktop wallet. The later variant is easier to implement and is cheaper to maintain as you don't need to pay for cloud services. To use node from your PC all you need is to install Peach desktop wallet. You control it and maintain it yourself, there is no need in custodial solutions.   
+When you set up Peach mobile wallet and need to deploy your own Lightning node, you have two options here. The first option is [installing a node using cloud service](https://github.com/LightningPeach/lnd-gc-deploy/blob/master/README.md). The second one is to use node deployed on your PC from the Peach desktop wallet. The later variant is easier to implement and is cheaper to maintain as you don't need to pay for cloud services. To use node from your PC all you need is to install Peach desktop wallet. You control it and maintain it yourself, there is no need in custodial solutions.   
 
 ## Installing and configuring desktop node
 Connect the Peach mobile wallet to your desktop node by doing the following:   
