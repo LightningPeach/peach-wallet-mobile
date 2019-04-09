@@ -10,7 +10,7 @@ Connect the Peach mobile wallet to your desktop node by doing the following:
 
 3) Create an account on the desktop wallet by following the sign-up procedure described below:   
 
-<img align="center" src="/peach-wallet-mobile/peach-desktop-node/2019-04-04_16-47-45.png" width="447" height="534.75">   
+<img align="center" src="/peach-desktop-node/2019-04-04_16-47-45.png" width="447" height="534.75">   
 
 <img align="center" src="https://github.com/konnievar/test/blob/master/2019-04-04_17-23-38.png" width="447" height="auto">   
 
