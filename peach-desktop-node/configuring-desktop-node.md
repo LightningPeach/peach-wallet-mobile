@@ -4,11 +4,11 @@ When you set up Peach mobile wallet and need to deploy your own Lightning node, 
 ## Installing and configuring desktop node
 Connect the Peach mobile wallet to your desktop node by doing the following:   
 
-1) Download Peach desktop wallet from our [site](https://lightningpeach.com/peach-wallet).   
+1) Download Peach desktop wallet application from our [site](https://lightningpeach.com/peach-wallet).   
 
 2) Install the downloaded application.   
 
-3) Create an account on the desktop wallet by following the sign-up procedure described below:   
+3) Create desktop wallet by doing the following:   
 
 <img align="center" src="/peach-desktop-node/2019-04-04_16-47-45.png" width="447" height="534.75">   
 
@@ -22,7 +22,7 @@ Connect the Peach mobile wallet to your desktop node by doing the following:
 
 <img align="center" src="/peach-desktop-node/2019-04-04_17-44-49.png" width="447" height="auto">  
 
-Wait a couple of minutes for node to synchronize with Blockchain. Your node is up and running. 
+Wait a couple of minutes for node to synchronize with Blockchain. Your node is up and running.
 Now let’s connect to it from mobile device.   
 
 4) Open your wallet account.   
@@ -41,11 +41,11 @@ Steps listed within the window are duplicated below:
 
 a) Make sure you have public IP address.   
 
-b) You need to set up port forwarding on your router for port 10014. Keep the same port number both externally and internally. 
+b) You need to set up port forwarding on your router for port 10014. Keep the same port number both externally and internally.
 
 c) Finally, you need to generate new QR code being located on the same network with the router.   
 
 <img align="center" src="/peach-desktop-node/2019-04-08_12-39-56.png" width="447" height="auto">.       
-d) Scan the QR code from the mobile application. Congratulations! You are ready to use your Desktop node.    
+d) Scan the QR code from the mobile application. Congratulations! You are ready to use your desktop node.    
 
-**Note:** The desktop node will be available as long as the wallet application is active, and the computer is online. If your external IP changes on the desktop, you will need to reconnect the mobile application using a new QR code.    
+**Note:** The desktop node will be available as long as the desktop wallet application is active, and PC is online. If your external IP changes on the desktop, you will need to reconnect the mobile application using a new QR code.    
