@@ -1,6 +1,5 @@
 // a library to wrap and simplify api calls
 import apisauce from 'apisauce';
-import { cloneDeep } from 'lodash';
 import pinch from '../Lib/react-native-pinch';
 import AppConfig, { getHeightUri } from '../Config/AppConfig';
 
@@ -45,17 +44,17 @@ const create = (baseURL = 'https://') => {
 
   const getLnd = url =>
     pinch
-      .fetch(`${apiPinch.host}${prefix}/${url}`, cloneDeep(apiPinch.config))
+      .fetch(`${apiPinch.host}${prefix}/${url}`, JSON.parse(JSON.stringify(apiPinch.config)))
       .then(response => ({ response }))
       .catch(error => ({ error }));
 
   const deleteLnd = (url, data = {}, timeout = AppConfig.defaultApiTimeout) => {
-    const deleteConfig = cloneDeep({
+    const deleteConfig = JSON.parse(JSON.stringify(({
       ...apiPinch.config,
       timeoutInterval: timeout,
       method: 'delete',
       body: JSON.stringify(data),
-    });
+    }));
 
     return pinch
       .fetch(`${apiPinch.host}${prefix}/${url}`, deleteConfig)
@@ -64,12 +63,12 @@ const create = (baseURL = 'https://') => {
   };
 
   const postLnd = (url, data = {}, timeout = AppConfig.defaultApiTimeout) => {
-    const postConfig = cloneDeep({
+    const postConfig = JSON.parse(JSON.stringify(({
       ...apiPinch.config,
       timeoutInterval: timeout,
       method: 'post',
       body: JSON.stringify(data),
-    });
+    }));
 
     return pinch
       .fetch(`${apiPinch.host}${prefix}/${url}`, postConfig)
