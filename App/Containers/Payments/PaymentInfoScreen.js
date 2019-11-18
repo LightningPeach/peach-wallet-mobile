@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 import { SafeAreaView } from 'react-navigation';
 import moment from 'moment';
 import { isEmpty, isNil, path } from 'ramda';
-import { isArray, isString } from 'lodash';
 
 import {
   getIconByStatus,
@@ -79,7 +78,7 @@ class PaymentInfoScreen extends Component {
   }
 
   renderRecipientId(recipientId) {
-    if (isArray(recipientId)) {
+    if (Array.isArray(recipientId)) {
       return recipientId.map(id => (
         <Text key={id} style={styles.tokenText}>
           {id}
@@ -87,7 +86,7 @@ class PaymentInfoScreen extends Component {
       ));
     }
 
-    if (isString(recipientId)) {
+    if (typeof recipientId === 'string' || recipientId instanceof String) {
       return <Text style={styles.tokenText}>{recipientId}</Text>;
     }
 
@@ -104,7 +103,7 @@ class PaymentInfoScreen extends Component {
         style={styles.copyButton}
         title={`COPY ${recipientIdText.toUpperCase()}`}
         onPress={() =>
-          Clipboard.set(recipientIdText, isArray(recipientId) ? recipientId[0] : recipientId)
+          Clipboard.set(recipientIdText, Array.isArray(recipientId) ? recipientId[0] : recipientId)
         }
       />
     );
